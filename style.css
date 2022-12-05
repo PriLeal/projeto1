@@ -1,0 +1,138 @@
+*{
+    display: block;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+title{
+    color: blueviolet;
+    
+}
+
+
+.header{
+    height: 800px;
+    width: 1200px;
+    background-image: url(imagens/home.jpg);
+    background-size: cover;
+}
+
+
+
+h1{
+    font-size: 100px;
+    font-family: monospace;
+    color: white;
+    padding: 160px;
+    height: 60px;
+    width: 80px;
+}
+
+.nav{
+    font-size: 30px;
+    text-align: right;
+    padding: 20px;
+    background-image: url(imagens/images.jpg);
+    background-size: cover; 
+}
+
+
+.geral{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    height: 600px;
+    width: 1200px;
+   
+   
+
+}
+.tap1{
+    font-size: 40px;
+    color: bisque;
+    padding: 20px;
+    background-image: url(imagens/Tap1.jpg);
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+}
+
+.tap2{
+    font-size: 40px;
+    padding: 30px;
+    background-image: url(imagens/Tap2.jpeg);
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+}
+
+.tap3{
+    font-size: 40px;
+    padding: 30px;
+    background-image: url(imagens/Tap3.jpeg);
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+}
+
+.finish{
+
+    font-size: 30px;
+    background-color: rgb(209, 175, 242);
+    padding: 50px;
+    text-align: center;
+    
+}
+
+
+.finish:hover{
+    opacity:1;
+    
+}
+
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 35, 35);
+    font-size: 20px;
+    padding: 50px;
+    text-align: end;
+    background-color: rgb(209, 175, 242);
+    
+}
+
+legend{
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+    
+.leg{
+    text-align: center;
+}
+
+.list{
+  
+    padding: 2rem 6rem;
+   
+
+}
+
+
+.link{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+   
+}
+
+@media screen and  (max-width:730px){
+    .header{
+        height: 400px;
+        width: 600px;
+    }
+}
